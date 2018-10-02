@@ -15,11 +15,11 @@
 			</tr>
 			<tr bgcolor="yellow">
 				<td>Nama	: </td>
-				<td><input type="text" name="nama" minlength="25" maxlength="25" required=""></td>
+				<td><input type="text" name="nama" maxlength="25" required=""></td>
 			</tr>
 			<tr bgcolor="yellow">
 				<td>E-mail	: </td>
-				<td><input type="text" name="email" minlength="30" maxlength="30"  placeholder="@gmail.com" required=""></td>
+				<td><input type="text" name="email" maxlength="30"  placeholder="@gmail.com" required=""></td>
 			</tr>
 			<tr>
 				<td><input type="Submit" name="submit" value="Submit"></td>
