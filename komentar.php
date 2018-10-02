@@ -20,7 +20,12 @@
 		$komentar = $_POST['komentar'];
 		$hasil = str_word_count($komentar);
 
+		if (str_word_count($komentar <= 5)){
+		echo "ERROR";
+	}else{
+
 		echo "<center>Jumlah kata pada komentar adalah : $hasil</center>";
 	}
+}
 
 ?>
